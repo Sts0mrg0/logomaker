@@ -1637,7 +1637,7 @@ a:active:after {
     transform: rotate(90deg);
     transform-origin: right top;
     width: 100vh;
-    overflow-x: hidden;
+    overflow-y: hidden;
     position: absolute;
     top: 100%;
     right: 0;
