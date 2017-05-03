@@ -3108,8 +3108,8 @@
       _imagelib = require("../../imagelib"),
       _ImageFieldClipart = require("./ImageField-clipart"),
       _Promise = "undefined" == typeof Promise ? require("es6-promise").Promise : Promise,
-      WEB_FONTS_API_KEY = "AIzaSyBTfh-viUgY_HeiRwlb3z3eXjmuYjWYEdo",
-      WEB_FONTS_API_URL = "https://www.googleapis.com/webfonts/v2/webfonts?key=" + WEB_FONTS_API_KEY + "&fields=items(family)",
+      WEB_FONTS_API_KEY = "AIzaSyATu95ehqBjxvf8Up72oRvOZOqRovRQvXc",
+      WEB_FONTS_API_URL = "https://www.googleapis.com/webfonts/v1/webfonts?key=" + WEB_FONTS_API_KEY,
       WEB_FONTS_CACHE_TIME = 36e5,
       ImageField = exports.ImageField = function(_Field) {
         function ImageField(id, params) {
