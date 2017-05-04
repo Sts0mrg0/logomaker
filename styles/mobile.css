@@ -1,0 +1,44 @@
+@charset 'utf-8';
+html {
+  overflow-x: hidden;
+}
+.inputs-panel {
+  width: 100%;
+}
+.outputs-items {
+  position: absolute;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#download-zip-button {
+  z-index: 999999999;
+  display: block;
+  position: fixed;
+  top: 50px;
+  right: 15px;
+  width: 56px;
+  height: 56px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.16),
+    0 6px 12px rgba(0, 0, 0, 0.32);
+}
+.outputs-image-block {
+  z-index: 999999999;
+  display: block;
+  position: fixed;
+  bottom: 30px;
+  right: 15px;
+  width: 56px;
+  height: 56px;
+}
+.outputs-image-container, .outputs-image {
+  border: none;
+  width: 56px;
+  height: 56px;
+}
+.show-grid .outputs-image-overlay svg {
+  display: none;
+}
+.outputs-label {
+  display: none;
+}
