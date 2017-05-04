@@ -1,6 +1,6 @@
 @charset 'utf-8';
-html {
-  overflow-x: hidden;
+html, body {
+  overflow-x: hidden !important;
 }
 #nine {
   display: none;
