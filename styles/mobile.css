@@ -2,6 +2,9 @@
 html {
   overflow-x: hidden;
 }
+#nine {
+  display: none;
+}
 .inputs-panel {
   width: 100%;
 }

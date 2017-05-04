@@ -51,6 +51,5 @@
   "theme_color": "#448aff",
   "background_color": "#448aff",
   "start_url": "http://gio1135.xyz/logomaker/",
-  "display": "standalone",
-  "orientation": "portrait"
+  "display": "standalone"
 }
