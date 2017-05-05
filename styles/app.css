@@ -22,9 +22,9 @@
   font-family: 'Material Icons'
 }
 
-body,html {
+body, html {
   height: 100%;
-  min-height: 100%
+  max-height: 100%;
 }
 
 .material-icons,html {
@@ -1172,38 +1172,38 @@ body.page-home .home-footer .inner,body.page-home .home-generator-list .inner,bo
   -webkit-flex: 0 0 auto;
   -ms-flex: 0 0 auto;
   flex: 0 0 auto;
-  padding: 0 24px
+  padding: 0 24px;
 }
 
 @media only screen and (min-width: 344px) {
   body.page-home .home-footer .inner,body.page-home .home-generator-list .inner,body.page-home .home-header .inner {
-    width:344px
+    width: 344px;
   }
 }
 
 @media only screen and (min-width: 664px) {
   body.page-home .home-footer .inner,body.page-home .home-generator-list .inner,body.page-home .home-header .inner {
-    width:664px
+    width: 664px;
   }
 }
 
 @media only screen and (min-width: 984px) {
   body.page-home .home-footer .inner,body.page-home .home-generator-list .inner,body.page-home .home-header .inner {
-    width:984px
+    width: 984px;
   }
 }
 
 body.page-home .home-header {
   background-color: #607d8b;
-  color: rgba(255,255,255,.7);
+  color: rgba(255, 255, 255, 0.7);
   font-size: 16px;
   line-height: 24px;
-  margin-bottom: -48px
+  margin-bottom: -48px;
 }
 
 body.page-home .home-header .inner {
   margin-top: 48px;
-  margin-bottom: 48px
+  margin-bottom: 48px;
 }
 
 body.page-home .home-header h1 {
@@ -1211,17 +1211,17 @@ body.page-home .home-header h1 {
   font-size: 28px;
   line-height: 36px;
   font-weight: 400;
-  margin: 0 0 12px
+  margin: 0 0 12px;
 }
 
 body.page-home .home-header .subtitle {
   margin: 0 0 48px;
-  max-width: 360px
+  max-width: 360px;
 }
 
 body.page-home .home-footer .inner {
-  color: rgba(0,0,0,.38);
-  margin: 24px 0 64px
+  color: rgba(0, 0, 0, 0.38);
+  margin: 24px 0 64px;
 }
 
 body.page-home .home-generator-list .inner {
@@ -1237,7 +1237,7 @@ body.page-home .home-generator-list .inner {
   -webkit-align-items: stretch;
   -ms-flex-align: stretch;
   align-items: stretch;
-  padding-right: 0
+  padding-right: 0;
 }
 
 body.page-home .home-generator-card {
