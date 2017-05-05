@@ -710,7 +710,7 @@
               localStorage.assetStudioShowGrid = String(checked), $(".outputs-panel").toggleClass("show-grid", checked)
             })
           }
-          else$("#grid-toggle-container").hide();
+          else $("#grid-toggle-container").hide();
           $(".outputs-additional-toggle").click(function() {
             return $(".outputs-panel").toggleClass("is-showing-all")
           })
@@ -4012,7 +4012,7 @@
           var local = void 0;
           if ("undefined" != typeof global) local = global;
           else if ("undefined" != typeof self) local = self;
-          elsetry {
+          else try {
             local = Function("return this")()
           } catch (e) {
             throw new Error("polyfill failed because global object is unavailable in this environment")
@@ -5337,7 +5337,7 @@
                   if (null == n) l = "";
                   else {
                     if (l = n[2], l = null == l || "" == l ? "n" : Da[l], n = n[1], null == n || "" == n) n = "4";
-                    elsevar r = Ca[n], n = r ? r : isNaN(n) ? "4" : n.substr(0, 1);
+                    else var r = Ca[n], n = r ? r : isNaN(n) ? "4" : n.substr(0, 1);
                     l = [l, n].join("")
                   }
                 }
