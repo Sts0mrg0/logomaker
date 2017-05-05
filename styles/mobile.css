@@ -25,7 +25,7 @@ html, body {
   box-shadow: 0 0 6px rgba(0, 0, 0, 0.16),
     0 6px 12px rgba(0, 0, 0, 0.32);
 }
-.outputs-image-block {
+.outputs-additional .outputs-image-block:first-of-type {
   z-index: 999999999;
   display: block;
   position: fixed;
@@ -34,7 +34,8 @@ html, body {
   width: 56px;
   height: 56px;
 }
-.outputs-image-container, .outputs-image {
+.outputs-additional .outputs-image-block:first-of-type .outputs-image-container,
+.outputs-additional .outputs-image-block:first-of-type .outputs-image-container .outputs-image {
   border: none;
   width: 56px;
   height: 56px;
